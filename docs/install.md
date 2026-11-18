@@ -18,7 +18,9 @@ claude plugin install project-setup --marketplace smrik/patrik-agents --scope us
 claude plugin install git-reminder --marketplace smrik/patrik-agents --scope user
 ```
 
-To receive updates automatically, open `/plugin` and enable auto-update for the **patrik-agents** marketplace. Start a fresh session to use the installed version.
+Claude may ask you to trust a new workspace. To receive updates automatically, open `/plugin` → **Marketplaces** and enable auto-update for **patrik-agents**. After your first interactive message, Claude waits up to ten minutes before starting its background check. When an update notice appears, run `/reload-plugins` or start a fresh session.
+
+For a manual update, run `claude plugin marketplace update patrik-agents`, then `claude plugin update project-setup@patrik-agents --scope user`. Reload or start a fresh session afterward.
 
 ## Codex
 
@@ -41,6 +43,8 @@ codex plugin add git-reminder@patrik-agents
 ```
 
 For Git Reminder, review and trust its **SessionStart** command, then start a fresh session. The command uses Node.js and Git on your path.
+
+Codex checks this Git marketplace for updates at startup on a best-effort basis. Run `codex plugin marketplace upgrade patrik-agents` to fetch an update immediately. Once the plugin updates, invoke Project Setup again in your current chat. If you still see the old behavior, start a fresh chat.
 
 ## Desktop
 
