@@ -1,11 +1,28 @@
-# Patrik Agents
+# ![Patrik Agents. Git Reminder asks whether to initialize Git before writing a script. Project Setup identifies an existing review skill.](docs/banner.png)
 
-Choose either plugin or install both. **Project Setup** helps you choose skills when you ask to set up a project. **Git Reminder** checks the current folder at session start. In an unversioned folder it asks whether to initialize Git before the first code edit. It stays quiet for notes. The reminder requires Node.js and Git on your path.
+Two optional plugins for Claude Code and Codex.
 
-## Codex
+**Git Reminder** catches the moment a scratch folder becomes a code project. Ask for a note and it stays quiet. Ask for a Python script and, if the folder is outside Git, it offers to initialize a repository before the first edit. You can also choose to carry on.
 
-Once this marketplace is published, run `codex plugin marketplace add smrik/patrik-agents`. Install the plugin you want with `codex plugin add project-setup@patrik-agents` or `codex plugin add git-reminder@patrik-agents`. For the reminder, review and trust its SessionStart command. Start a fresh session.
+**Project Setup** answers “Do I already have a skill for this?” Tell it what you’re building. It checks the skills your agent can use and shows you what a new one would add before you install it.
 
-## Claude Code
+## Install
 
-Once published, run `claude plugin marketplace add smrik/patrik-agents`. Run `claude plugin install project-setup@patrik-agents --scope user` or `claude plugin install git-reminder@patrik-agents --scope user`. To receive updates automatically, enable auto-update for this marketplace in the plugin manager. Start a fresh session after an update. Claude may also ask you to trust a new workspace.
+Choose either plugin or install both. These commands install **Git Reminder**. For **Project Setup**, replace `git-reminder` with `project-setup`.
+
+**Claude Code**
+
+```sh
+claude plugin install git-reminder --marketplace smrik/patrik-agents --scope user
+```
+
+**Codex**
+
+```sh
+codex plugin marketplace add smrik/patrik-agents
+codex plugin add git-reminder@patrik-agents
+```
+
+Git Reminder needs Node.js and Git. In Codex, review and trust the startup hook. Open a fresh chat to use it.
+
+[Desktop installation](docs/install.md#desktop) · [Try the plugins](docs/install.md#try-it) · [Full installation guide](docs/install.md)
