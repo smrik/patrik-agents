@@ -1,0 +1,8 @@
+{
+  "name": "project-setup",
+  "version": "0.1.0",
+  "description": "Review the active skills and preview additions when asked to set up a project.",
+  "author": {
+    "name": "smrik"
+  }
+}

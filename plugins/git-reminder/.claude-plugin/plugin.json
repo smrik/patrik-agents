@@ -1,0 +1,8 @@
+{
+  "name": "git-reminder",
+  "version": "0.1.0",
+  "description": "Check Git at startup and ask before the first code edit in an unversioned folder.",
+  "author": {
+    "name": "smrik"
+  }
+}

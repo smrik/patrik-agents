@@ -1,0 +1,19 @@
+{
+  "name": "patrik-agents",
+  "owner": {
+    "name": "smrik"
+  },
+  "plugins": [
+    {
+      "name": "project-setup",
+      "source": "./plugins/project-setup"
+    },
+    {
+      "name": "git-reminder",
+      "source": "./plugins/git-reminder"
+    }
+  ],
+  "metadata": {
+    "description": "Choose project setup guidance or an optional Git reminder."
+  }
+}
