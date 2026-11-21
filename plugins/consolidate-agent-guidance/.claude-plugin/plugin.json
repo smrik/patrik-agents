@@ -1,0 +1,8 @@
+{
+  "name": "consolidate-agent-guidance",
+  "version": "0.1.0",
+  "description": "Weigh project evidence and propose source-linked changes to an agent guide.",
+  "author": {
+    "name": "smrik"
+  }
+}

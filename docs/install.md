@@ -2,6 +2,19 @@
 
 [Back to Patrik Agents](../README.md)
 
+## Plugin names
+
+Use any one of these names in the install commands below. Each is a separate selection at user scope.
+
+| Name | Installs |
+| --- | --- |
+| `project-map` | Branch tracking, handoff maps and bookmarks |
+| `project-setup` | Skill selection and evidence-based setup review |
+| `research-agent-guidance` | Dated research from first-party sources |
+| `consolidate-agent-guidance` | Source-backed guide revisions |
+| `repo-cleanup` | Review of stale instructions and documentation |
+| `git-reminder` | An optional Git startup hook |
+
 ## Claude Code
 
 Run the command for the plugin you want in your terminal. Each command also registers the marketplace.
@@ -58,6 +71,8 @@ https://github.com/smrik/patrik-agents
 - **Claude:** Open **Customize → Plugins → Add → Add marketplace**. Choose **Add from a repository**, paste the URL, then select the plugin. [Claude’s marketplace guide](https://support.claude.com/en/articles/13837440-use-plugins-in-claude)
 
 ## Try it
+
+With Project Map installed, try “Map my field guide project. I need to identify the cover bird, choose paper and arrange a library launch. Start with the cover.” Ask for just the bookmark when you pause.
 
 In a fresh chat with Project Setup installed, ask: “Set up this project for reviewing a small Python change. Show me which installed skills already cover it.” You should get a recommendation before anything is added.
 

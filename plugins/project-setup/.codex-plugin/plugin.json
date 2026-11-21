@@ -1,7 +1,7 @@
 {
   "name": "project-setup",
-  "version": "0.1.0",
-  "description": "Review the active skills and preview additions when asked to set up a project.",
+  "version": "0.2.0",
+  "description": "Choose skills or use task evidence to review project instructions, prompts and skill triggers.",
   "author": {
     "name": "smrik"
   }

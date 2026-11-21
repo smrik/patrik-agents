@@ -1,0 +1,8 @@
+{
+  "name": "research-agent-guidance",
+  "version": "0.1.0",
+  "description": "Refresh a project's dated evidence about agent guidance from primary sources.",
+  "author": {
+    "name": "smrik"
+  }
+}

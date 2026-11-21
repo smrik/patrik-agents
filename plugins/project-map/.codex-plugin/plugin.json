@@ -1,0 +1,8 @@
+{
+  "name": "project-map",
+  "version": "0.1.0",
+  "description": "Track project branches, pending decisions and the next step in conversation.",
+  "author": {
+    "name": "smrik"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "repo-cleanup",
+  "version": "0.1.0",
+  "description": "Trace stale repository instructions and preview a correction in the file that owns them.",
+  "author": {
+    "name": "smrik"
+  }
+}

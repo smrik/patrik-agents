@@ -11,9 +11,25 @@
     {
       "name": "git-reminder",
       "source": "./plugins/git-reminder"
+    },
+    {
+      "name": "project-map",
+      "source": "./plugins/project-map"
+    },
+    {
+      "name": "research-agent-guidance",
+      "source": "./plugins/research-agent-guidance"
+    },
+    {
+      "name": "consolidate-agent-guidance",
+      "source": "./plugins/consolidate-agent-guidance"
+    },
+    {
+      "name": "repo-cleanup",
+      "source": "./plugins/repo-cleanup"
     }
   ],
   "metadata": {
-    "description": "Choose project setup guidance or an optional Git reminder."
+    "description": "Choose individual skills for setup, project maps, guidance research, guide revisions and repository cleanup, or a Git startup reminder."
   }
 }
